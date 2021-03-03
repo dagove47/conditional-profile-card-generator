@@ -4,7 +4,7 @@
     "flowtype"
   ],
   "env": {
-    "browser": true,
+    "browser": true
   },
   "rules": {
     "strict":0,
@@ -17,8 +17,8 @@
         "objects": "never",
         "imports": "never",
         "exports": "never",
-        "functions": "ignore",
-    }],
+        "functions": "ignore"
+    }]
   },
   "extends": ["eslint:recommended", "plugin:flowtype/recommended"]
 }
